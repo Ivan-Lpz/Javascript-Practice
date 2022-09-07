@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Button Clicker Assignment</title>
+  <link rel="stylesheet" href="buttonclicker.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="header-container">
+            <h1 class="nav-header">
+                Dojanory
+            </h1>
+            <input class="search-bar"type="text"placeholder="Search">
+            <button onclick ="logout(this)" class="login-button">Login</button>
+        </div>
+        <div class="page-content">
+            <div class="main-content-container">
+                <div class="ninja-top-content">
+                <div class="ninja-noun">
+                    <h1 class="ninja-header">ninja</h1>
+                    <p style="font-style:italic" class="ninja-noun-text">noun</p>
+                    <p class="plural-text">Plural: <span style="font-style: italic">ninjas</span></p>
+                    <button onclick="showAlert (this)" class="likes-button">13 likes</button>
+                </div>
+                <div class="ninja-definition">
+                    <p>A practitioner skilled in the
+                        <a href="#">Japanese</a>
+                        art of
+                        <a href="#">ninjutsu</a>
+                    </p>
+                </div>
+            </div>
+            <div class="ninja-bottom-content">
+                <div class="ninja-noun">
+                    <h1 class="ninja-header">ninja</h1>
+                    <p style="font-style:italic" class="ninja-noun-text">noun</p>
+                    <p class="plural-text">Plural: <span style="font-style: italic">ninjas</span></p>
+                    <button onclick="showAlert (this)" class="likes-button">37 likes</button>
+                </div>
+                <div class="ninja-definition">
+                    <p>A
+                        <a href="#">programmer</a>
+                        who breaks down problems with 
+                        <a href="#">zen</a>
+                        -like focus
+                    </p>
+                </div>
+            </div>
+        </div>
+            <div class="side-content">
+                <p class="side-content-text">Dojonary is defined by <span class="bold-you">YOU</span></p>
+                <button onclick ="eraseText(this)" class="side-content-button">Add definition</button>
+            </div>
+        </div>
+    </div>
+    <script src="buttonclicker.js">
+
+    </script>
+</body>
+</html>
+
+
